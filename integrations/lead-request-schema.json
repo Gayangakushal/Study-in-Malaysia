@@ -1,0 +1,87 @@
+{
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string"
+    },
+    "whatsapp_number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "age": {
+      "type": "string"
+    },
+    "qualification": {
+      "type": "string"
+    },
+    "study_mode": {
+      "type": "string"
+    },
+    "programme": {
+      "type": "string"
+    },
+    "start_timeline": {
+      "type": "string"
+    },
+    "funding": {
+      "type": "string"
+    },
+    "preferred_language": {
+      "type": "string"
+    },
+    "consent": {
+      "type": "boolean"
+    },
+    "lead_score": {
+      "type": "string"
+    },
+    "page_url": {
+      "type": "string"
+    },
+    "submitted_at": {
+      "type": "string"
+    },
+    "utm_source": {
+      "type": "string"
+    },
+    "utm_medium": {
+      "type": "string"
+    },
+    "utm_campaign": {
+      "type": "string"
+    },
+    "utm_content": {
+      "type": "string"
+    },
+    "utm_term": {
+      "type": "string"
+    },
+    "fbclid": {
+      "type": "string"
+    },
+    "gclid": {
+      "type": "string"
+    },
+    "ttclid": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "full_name",
+    "whatsapp_number",
+    "district",
+    "age",
+    "qualification",
+    "study_mode",
+    "programme",
+    "start_timeline",
+    "funding",
+    "preferred_language",
+    "consent"
+  ]
+}
