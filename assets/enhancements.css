@@ -13,11 +13,11 @@ html{scroll-padding-top:96px}body{overflow-wrap:break-word}a,button,input,select
 /* Waist-up student cutout anchored behind the white trust bar. */
 .hero-inner{gap:20px;justify-content:space-between;min-height:570px;padding-top:28px;align-items:center}
 .hero-copy{flex:1 1 46%;max-width:660px;min-width:0}
-.hero-students{flex:0 0 60%;align-self:flex-end;min-width:0;background:transparent;border:0;box-shadow:none;margin-bottom:-8px;overflow:hidden}
+.hero-students{flex:0 0 54%;align-self:flex-end;min-width:0;background:transparent;border:0;box-shadow:none;margin-bottom:-8px;overflow:hidden}
 .students-scene{width:100%;aspect-ratio:3/2;overflow:hidden;transform-origin:50% 100%;animation:students-sway 7s ease-in-out infinite}
-.hero-students .students-scene img{display:block;width:110%;height:auto;max-width:none;margin-left:-5%}
+.hero-students .students-scene img{display:block;width:100%;height:auto;max-width:100%}
 @keyframes students-sway{0%,100%{transform:rotate(-.25deg)}50%{transform:rotate(.25deg)}}
 @media(min-width:961px){.hero h2{font-size:clamp(23px,2.5vw,35px)}}
-@media(max-width:960px){.hero-inner{flex-direction:column;align-items:stretch;gap:0;padding-bottom:0}.hero-copy{flex:auto;max-width:100%;padding-bottom:24px}.hero-students{flex:auto;width:min(100%,640px);align-self:center}}
+@media(max-width:960px){.hero-inner{flex-direction:column;align-items:stretch;gap:0;padding-bottom:0}.hero-copy{flex:auto;max-width:100%;padding-bottom:24px}.hero-students{flex:auto;width:min(100%,540px);align-self:center}}
 @media(max-width:680px){.hero-inner{padding-top:0}.hero-copy{padding-bottom:24px}.hero-students{width:100%}}
 @media(prefers-reduced-motion:reduce){.students-scene{animation:none}}
